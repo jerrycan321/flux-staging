@@ -16,8 +16,8 @@ spec:
   interval: 30s
   targetNamespace: staging
   values:
-#    image:
-#     tag: 0.18.0
+    injector:
+      replicas: 1
     ingress:
       host: staging.vault.192.168.72.104.nip.io
 
